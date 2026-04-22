@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "dataset": "sahil2801/CodeAlpaca-20k",
+  "method": "QLoRA",
+  "epochs": 3,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "eval_loss": 0.8534305649995804,
+  "perplexity": 2.3476869456745195,
+  "bleu_score": 16.07376485550149,
+  "device": "cuda",
+  "trainable_params": 18464768,
+  "total_params": 907081216,
+  "trainable_percent": 2.0356245586723736
+}
